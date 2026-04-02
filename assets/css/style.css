@@ -1,0 +1,20 @@
+.hero-headline{
+   font-size: 80px;
+}
+.sneaker-img{
+   height: 400px;
+}
+
+.img-card-top{
+   max-height: 250px;
+   object-fit: cover;
+}
+
+.img-wrapper {
+   overflow: hidden;
+}
+
+.img-card-top:hover {
+   transform: scale(1.2);
+   transition: transform 0.3s ease in ease-in-out;
+}
