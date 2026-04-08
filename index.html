@@ -9,40 +9,51 @@
 </head>
 <body>
 
+<div class="container-fluid">
+      <div class="row">
+      <!-- / ".col + tab" -->
+      <div class="col-12">
+         <!-- As a heading -->
+         <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">
+               SNEAK<span class="text-danger">PEAK</span>
+            </span>
+            <button type="button" class="btn btn-dark rounded-pill">
+               Dark
+            </button>
+            </div>
+         </nav>
+      </div>
+      </div>
+   </div>
 
-<nav class="navbar navbar-light bg-light">
-  <div class="container-fluid">
-   <a class="navbar-brand fw-bold">
-      <span class="navbar-brand mb-0 h1"><b>SNEAK</b></span class="text-danger"><b>PEAK</b></span>
-   </a>
-   <button type="button rounded" class="btn btn-dark">Cart</button>
-  </div>
-</nav>
+   <div class="container">
+      <div class="row">
+      <div class="col-12 col-md-6">
+         <span class="badge rounded-pill text-bg-danger">HYPE DROP</span>
 
-      <div class="container">
-         <div class="row">
-               <div class="col-12 col-md-6">
-               <span class="badge rounded-pill text-bg-danger">
-                  HYPE DROP
-               </span>
-               <h1 class="fw-bold hero-headline">
-                  URBAN ECLIPSE V.2 <span class="text-danger">'LOW'</span>
-               </h1>
-               <p>
-                  Siluet klasik dengan sentuhan futuristik.
-                  Rilis super terbataas, jangan sampai nyesel skip drop kali ini
-               </p>
-               <div class="d-flex gap-2 align-items-center">
-                  <button class="btn btn-dark rounded-0 px-2 py-3">
-                     CORP NOW
-                  </button>
-                  <div class="fw-bold">Rp2.499.000</div>
-               </div>
+         <h1 class="fw-bold hero-headline">
+            URBAN ECLIPSE V.2 <span class="text-danger">'LOW'</span>
+         </h1>
 
-               </div>
-               <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
-                     <img class="sneaker-img" src="assets/images/sepatu.png" alt="sepatu"/>
-               </div>
+         <p>
+            Siluet Klasik dengan sentuhan futuristik. Rilis Super Terbatas,
+            Jangan sampai nyesel skip drop kali ini
+         </p>
+
+         <div class="d-flex gap-2 align-items-center">
+            <button id = "button-cop-now" class="btn btn-dark rounded-0 py-3 px-2" type="submit">
+            COP NOW
+            </button>
+            <div id = "harga-berubah" class="fw-bold">Rp.2.499.000</div>
+         </div>
+      </div>
+   </div>
+   <!-- Gambar Sepatu -->
+      <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+            <img class="sneaker-img" src="assets/images/sepatu.png" alt="sepatu"/>
+      </div>
             </div>
          </div>
       </div>
@@ -56,7 +67,7 @@
          </div>
 
          <div class="container-fluid">
-            <div class="row gap">
+            <div id="list-sepatu" class="row">
                <div class="col-4">
                   <div class="card rounded-5 overflow-hidden">
                      <img src="assets/images/sepatu1.avif" class="img-card-top" alt="sepatu1"/>
